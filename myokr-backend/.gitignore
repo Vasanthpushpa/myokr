@@ -1,0 +1,56 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build output ===
+dist/
+build/
+
+# === Logs ===
+logs
+*.log
+log.txt
+debug.log
+
+# === Environment Variables ===
+.env
+.env.*.local
+.env.local
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Vercel/Netlify Deploy Config ===
+.vercel/
+.netlify/
+.next/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === Coverage Reports ===
+coverage/
+*.lcov
+
+# === React Native / Expo ===
+.expo/
+*.expo
+
+# === Misc ===
+*.tgz
+*.swp
+*.bak
+
+# === Optional: If using React in a separate folder ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
