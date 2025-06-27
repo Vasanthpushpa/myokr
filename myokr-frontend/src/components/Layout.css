@@ -1,0 +1,46 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: #0a0a23;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+  color: #61dafb;
+}
+
+.main-content {
+  flex: 1;
+  background: #f4f7fb;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background: white;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.content {
+  padding: 24px;
+}

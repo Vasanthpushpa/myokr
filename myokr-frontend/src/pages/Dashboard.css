@@ -1,0 +1,107 @@
+.dashboard-container {
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f8fb;
+  min-height: 100vh;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #1f2937;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.okr-section, .team-section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 300px;
+}
+
+.okr-section h2, .team-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.okr-card {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.okr-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  height: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background-color: #3b82f6;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.progress-percent {
+  font-size: 0.9rem;
+  color: #374151;
+  margin-top: 4px;
+  display: block;
+}
+
+.team-progress-placeholder {
+  height: 150px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f3f4f6,
+    #f3f4f6 10px,
+    #e5e7eb 10px,
+    #e5e7eb 20px
+  );
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}

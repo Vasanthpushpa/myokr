@@ -1,13 +1,11 @@
-const express = require("express")
+// server.js
+import app from './app.js';
+import dotenv from 'dotenv';
 
-const app = express()
+dotenv.config();
 
-const PORT = 5000
+const PORT = process.env.PORT || 5000;
 
-app.get('/',(req,res)=>{
-    res.status(200).send("My OKR")
-})
-
-app.listen(PORT,(req,res)=>{
-    console.log(`Server running at port http://localhost:${PORT}`)
-})
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
+});
